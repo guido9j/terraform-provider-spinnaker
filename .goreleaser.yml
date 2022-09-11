@@ -3,6 +3,7 @@
 before:
   hooks:
     - go mod download
+    - go mod tidy
     - go generate ./...
 builds:
   - env:
@@ -20,6 +21,7 @@ builds:
       - darwin
     goarch:
       - amd64
+      - arm64
     ignore:
       - goos: darwin
         goarch: "386"
