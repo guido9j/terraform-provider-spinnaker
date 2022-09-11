@@ -5,6 +5,7 @@ go 1.14
 require (
 	github.com/antihax/optional v1.0.0
 	github.com/ghodss/yaml v1.0.0
+	github.com/hashicorp/terraform-plugin-docs v0.13.0 // indirect
 	github.com/hashicorp/terraform-plugin-sdk v1.17.2
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/spinnaker/spin v1.27.1
